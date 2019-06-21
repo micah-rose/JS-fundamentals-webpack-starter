@@ -1,3 +1,7 @@
-import '../styles/index.scss';
+//console.log("Hello World!!!!!!");
 
-console.log('webpack starterkit');
+function sendCars(day, ...carIDs){
+    carIDs.forEach(id => console.log(id));
+}
+
+sendCars('Monday', 100, 200, 300);
